@@ -1,18 +1,15 @@
 #include "main.h"
-
 /**
- * print_alphabet : using _putchar function print all letters from 'a' to 'z'
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line
  *
-*/
-
+ * Return: void
+ */
 void print_alphabet(void)
 {
-	char ch = 'a';
-	
-	for (; ch <= 'z';++ch)
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(ch);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
-
