@@ -1,1 +1,1 @@
-read
+pray for Palastine
