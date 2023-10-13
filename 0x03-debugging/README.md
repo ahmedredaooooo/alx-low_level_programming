@@ -1,1 +1,1 @@
-Help Palestine!
+pray for Palestaine
