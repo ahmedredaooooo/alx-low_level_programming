@@ -1,24 +1,24 @@
 #include "main.h"
+#include <limits.h>
+#include <stdio.h>
+
 /**
- * _strchr - locates a character in a string
- * @s: pointer to the string
- * @c: character to be located
- * Return: pointer to the first occurrence of c in s,
- * or NULL if c is not found
+ * *_strchr - check the code
+ * @s: blablalba
+ * @c: blablalb
+ * Return: void
  */
+
 char *_strchr(char *s, char c)
 {
-while (*s != '\0')
-{
-if (*s == c)
-{
-return (s);
-}
-s++;
-}
-if (*s == c)
-{
-return (s);
-}
-return (NULL);
+	unsigned int i;
+
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+		{
+			return (s + i);
+		}
+	}
+	return ('\0');
 }
